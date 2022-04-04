@@ -10,3 +10,32 @@
 参赛队伍需建立预测数据文件夹，命名为Predict。Predict文件夹内根据测试集数据组数（每个文件夹包含一组输出图片及相关结果），建立数量相同的预测数据文件夹，其中子文件夹名称与测试集中数据序号一致（1，2，3），每个子文件夹包含1张JPG格式的RGB图片（格式与已提供的图片一致）和4个txt格式的预测数据。其中，预测图片的文件名与子文件名序号一致为“p1.jpg”、“p2.jpg”或“p3.jpg”；4个txt文件名分别为“300s.txt”、“900s.txt”、“1500s.txt”和“pgmax.txt”。最后，参赛队伍将Predict文件夹打包成zip压缩包并提交。
 
 本比赛数据集由以下文章提供：Predicting the Pore-Pressure and Temperature of Fire-Loaded Concrete by a Hybrid Neural Network, DOI: 10.1142/S0219876221420111
+
+如果本数据集对您的研究有用，请在您的出版物中引用以下文章:
+
+@article{IJCM2022,
+author = {Zhang, Yiming and Gao, Zhiran and Wang, Xueya and Liu, Qi},
+title = {Predicting the Pore-Pressure and Temperature of Fire-Loaded Concrete by a Hybrid Neural Network},
+journal = {International Journal of Computational Methods},
+pages = {2142011},
+year = {2022},
+ Note= {doi:10.1142/S0219876221420111}
+}
+
+@Article{ES2014,
+  Title                    = {{Model-based risk assessment of concrete spalling in tunnel linings under fire loading}},
+  Author                   = {Zhang, Yiming and Zeiml, Matthias and Pichler, Christian and Lackner, Roman},
+  Journal                  = {Engineering Structures},
+  Year                     = {2014},
+  Pages                    = {207-215},
+  Volume                   = {77}
+}
+
+@Article{ES2017,
+  Title                    = {{Fast assessing spalling risk of tunnel linings under RABT fire: From a coupled thermo-hydro-chemo-mechanical model towards an estimation method}},
+  Author                   = {Zhang, Yiming and Zeiml, Matthias and Maier, Marcus and Yuan, Yong and Lackner, Roman},
+  Journal                  = {Engineering Structures},
+  Year                     = {2017},
+  Pages                    = {1-19},
+  Volume                   = {142}
+}
