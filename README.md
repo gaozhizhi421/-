@@ -63,8 +63,9 @@ year = {2022},
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 English
 
-The 1st international “Vision” meta-smart data competition
-data for intelligent construction category
+The 1st International "Prospective" Meta-Intelligence Data Competition
+
+-Data for Intelligent Construction Category
 
 1. Introduction：
 Concrete structures can experience explosive spalling when subjected to fire loading, greatly jeopardizing their load carrying capacity.  Spalling is closely correlated to the pore pressure and temperature evolution.  Numerical model (thermos-hydro-chemical model) for simulating spalling is generally complicated and time consuming.  In this competition section, the competitors shall use:
