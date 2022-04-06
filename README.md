@@ -1,17 +1,36 @@
+中文
 
 首届国际“远见杯”元智能数据挑战大赛-智能建造赛道比赛数据
 
 1. 数据集介绍：
-    比赛提供根据在标准范围内随机选取的数值生成，作为输入图片的灰度图包含15项参数信息，分别为初始孔隙率、固有渗透率、温升增长系数、水灰比、混凝土密度、比热容、热传导系数、初始饱和度，以及受火后1分钟、2分钟、4分钟、6分钟、8分钟、25分钟和30分钟时的火荷载温度。输出图片是三通道RGB彩色图像，RGB三个通道像素值分别代表可由上述15个参数通过数值计算获得的饱和度、孔压和温度信息。比赛数据分为训练集和测试集两部分，训练集提供5000组输入图片及5000张输出图片；测试集仅提供3组输入图片。其中，文件inputpic.zip中为输入图片，文件outputpic1.zip&outputpic2.zip中为输出图片，文件testpic.zip中为测试图片。
+混凝土材料受高温作用可能会发生爆裂，严重损害结构承载性能。爆裂与受火混凝土内部孔隙压力及温度演化密切相关，数值模型较为复杂，且计算时间长。本赛道比赛中，参赛队伍需根据：
+
+	输入：包含混凝土材料参数、环境湿度与温度荷载复合信息的灰度图
+
+	快速获得
+	
+	输出：描述混凝土饱和度、孔隙压力、温度时空信息的RGB图。
+
 2. 评分细节：
-    预测结果得分由预测图片与真图相似度以及根据图片计算所得在300s、900s和1500s时孔隙压力和温度随深度变化曲线和最大孔隙压力与时间变化曲线与数值计算结果相比较。
+预测结果得分由预测图片与真图相似度评价，比赛最终得分由初赛预测结果得分、报告及演示视频得分、答辩现场表现得分三部分构成，上述三部分得分占比分别为40%、30%、30%。
+
 3. 输出结果要求：
-    对于测试集的预测结果，以JPG格式编码，数据覆盖范围及分辨率须与已提供的图片（测试集输出图片）标准相同。
-参赛队伍需建立预测数据文件夹，命名为Predict。Predict文件夹内根据测试集数据组数（每个文件夹包含一组输出图片及相关结果），建立数量相同的预测数据文件夹，其中子文件夹名称与测试集中数据序号一致（1，2，3），每个子文件夹包含1张JPG格式的RGB图片（格式与已提供的图片一致）和4个txt格式的预测数据。其中，预测图片的文件名与子文件名序号一致为“p1.jpg”、“p2.jpg”或“p3.jpg”；4个txt文件名分别为“300s.txt”、“900s.txt”、“1500s.txt”和“pgmax.txt”。最后，参赛队伍将Predict文件夹打包成zip压缩包并提交。
+对于测试集的预测结果，以JPG格式编码，数据覆盖范围及分辨率须与已提供的图片（测试集输出图片）标准相同。提交压缩包命名为Predict.zip。其中包含预测图片，图片的文件名与测试输入文件名序号一致为“p1.jpg”、“p2.jpg”......
+最后，参赛队伍将Predict文件夹打包成zip压缩包并提交。
 
-本比赛数据集由以下文章提供：Predicting the Pore-Pressure and Temperature of Fire-Loaded Concrete by a Hybrid Neural Network, DOI: 10.1142/S0219876221420111
+4. 本比赛数据集由以下论文提供：
+Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Predicting the pore-pressure and temperature of fire-loaded concrete by a hybrid neural network,” International Journal of Computational Methods, ID. 2142011, 2022. doi:10.1142/S0219876221420111.
 
-如果本数据集对您的研究有用，请在您的出版物中引用以下文章:
+5. 如果本数据集对您的研究有用，请在您的出版物中引用以下文章:
+
+[1] Y. Zhang, M. Zeiml, C. Pichler, and R. Lackner, “Model-based risk assessment of concrete spalling in tunnel linings under fire loading,” Engineering Structures, vol. 77, pp. 207–215, 2014.
+
+[2] Y. Zhang, M. Zeiml, M. Maier, Y. Yuan, and R. Lackner, “Fast assessing spalling risk of tunnel linings under RABT fire: From a coupled thermo-hydro-chemo-mechanical model towards an estimation method,” Engineering Structures, vol. 142, pp. 1–19, 2017.
+
+[3] Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Predicting the pore-pressure and temperature of fire-loaded concrete by a hybrid neural network,” International Journal of Computational Methods, ID. 2142011, 2022. doi:10.1142/S0219876221420111.
+
+
+Bib 格式：
 
 @article{IJCM2022,
 author = {Zhang, Yiming and Gao, Zhiran and Wang, Xueya and Liu, Qi},
@@ -39,3 +58,70 @@ year = {2022},
   Pages                    = {1-19},
   Volume                   = {142}
 }
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+English
+
+The 1st international “Vision” meta-smart data competition
+data for intelligent construction category
+
+1. Introduction：
+Concrete structures can experience explosive spalling when subjected to fire loading, greatly jeopardizing their load carrying capacity.  Spalling is closely correlated to the pore pressure and temperature evolution.  Numerical model (thermos-hydro-chemical model) for simulating spalling is generally complicated and time consuming.  In this competition section, the competitors shall use:
+
+	input data: greyscale images storing the material properties, environmental moisture, and temperature loads
+
+	to quickly obtain
+
+	output data: RGB images storing the time-space distribution and evolution of saturation degree, pore pressure and temperature of fire loaded concrete.
+
+2. Grading：
+The basic grade is given based on the similarity of predicted image and original images.  The final grade will be composed by the basic grade, report grade and presentation grade, as 40%, 30% and 30%.
+
+3. Predicted results：
+The results are provided with JPG type files the resolution of which shall be the same as the output data.  A zip file includes the predicted JPG files shall be proposed in which the names of the JPG files shall be consistent with the names of the input image for predicting.
+
+4. The data is built based on the following paper:
+Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Predicting the pore-pressure and temperature of fire-loaded concrete by a hybrid neural network,” International Journal of Computational Methods, ID. 2142011, 2022. doi:10.1142/S0219876221420111.
+
+5. When the data is helpful for you, please cite following papers in your future work.
+
+[1] Y. Zhang, M. Zeiml, C. Pichler, and R. Lackner, “Model-based risk assessment of concrete spalling in tunnel linings under fire loading,” Engineering Structures, vol. 77, pp. 207–215, 2014.
+
+[2] Y. Zhang, M. Zeiml, M. Maier, Y. Yuan, and R. Lackner, “Fast assessing spalling risk of tunnel linings under RABT fire: From a coupled thermo-hydro-chemo-mechanical model towards an estimation method,” Engineering Structures, vol. 142, pp. 1–19, 2017.
+
+[3] Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Predicting the pore-pressure and temperature of fire-loaded concrete by a hybrid neural network,” International Journal of Computational Methods, ID. 2142011, 2022. doi:10.1142/S0219876221420111.
+
+
+Bib files：
+
+@article{IJCM2022,
+author = {Zhang, Yiming and Gao, Zhiran and Wang, Xueya and Liu, Qi},
+title = {Predicting the Pore-Pressure and Temperature of Fire-Loaded Concrete by a Hybrid Neural Network},
+journal = {International Journal of Computational Methods},
+pages = {2142011},
+year = {2022},
+ Note= {doi:10.1142/S0219876221420111}
+}
+
+@Article{ES2014,
+  Title                    = {{Model-based risk assessment of concrete spalling in tunnel linings under fire loading}},
+  Author                   = {Zhang, Yiming and Zeiml, Matthias and Pichler, Christian and Lackner, Roman},
+  Journal                  = {Engineering Structures},
+  Year                     = {2014},
+  Pages                    = {207-215},
+  Volume                   = {77}
+}
+
+@Article{ES2017,
+  Title                    = {{Fast assessing spalling risk of tunnel linings under RABT fire: From a coupled thermo-hydro-chemo-mechanical model towards an estimation method}},
+  Author                   = {Zhang, Yiming and Zeiml, Matthias and Maier, Marcus and Yuan, Yong and Lackner, Roman},
+  Journal                  = {Engineering Structures},
+  Year                     = {2017},
+  Pages                    = {1-19},
+  Volume                   = {142}
+}
+
+
+
+
