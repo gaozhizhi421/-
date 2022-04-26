@@ -29,7 +29,7 @@ Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Predicting the pore-pressure and tempe
 
 [3] Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Predicting the pore-pressure and temperature of fire-loaded concrete by a hybrid neural network,” International Journal of Computational Methods, ID. 2142011, 2022. doi:10.1142/S0219876221420111.
 
-[4] Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Image representations of numerical simulations for training neural networks,” Computer Modeling in Engineering & Sciences. doi:10.32604/cmes.2022.022088.
+[4] Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Image representations of numerical simulations for training neural networks,” Computer Modeling in Engineering & Sciences, 2022. doi:10.32604/cmes.2022.022088.
 
 
 Bib 格式：
@@ -103,7 +103,7 @@ Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Predicting the pore-pressure and tempe
 
 [3] Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Predicting the pore-pressure and temperature of fire-loaded concrete by a hybrid neural network,” International Journal of Computational Methods, ID. 2142011, 2022. doi:10.1142/S0219876221420111.
 
-[4] Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Image representations of numerical simulations for training neural networks,” Computer Modeling in Engineering & Sciences. doi:10.32604/cmes.2022.022088.
+[4] Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Image representations of numerical simulations for training neural networks,” Computer Modeling in Engineering & Sciences, 2022. doi:10.32604/cmes.2022.022088.
 
 
 Bib files：
