@@ -29,6 +29,8 @@ Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Predicting the pore-pressure and tempe
 
 [3] Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Predicting the pore-pressure and temperature of fire-loaded concrete by a hybrid neural network,” International Journal of Computational Methods, ID. 2142011, 2022. doi:10.1142/S0219876221420111.
 
+[4] Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Image representations of numerical simulations for training neural networks,” Computer Modeling in Engineering & Sciences. doi:10.32604/cmes.2022.022088.
+
 
 Bib 格式：
 
@@ -57,6 +59,14 @@ year = {2022},
   Year                     = {2017},
   Pages                    = {1-19},
   Volume                   = {142}
+}
+
+@Article{CMES2022,
+  Title                    = {Image representations of numerical simulations for training neural networks},
+  Author                   = {Zhang, Yiming and Gao, Zhiran and Wang, Xueya and Liu, Qi},
+  Journal                  = {Computer Modeling in Engineering & Sciences},
+  Year                     = {2022},
+  Note                     = {doi:10.32604/cmes.2022.022088}
 }
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -93,6 +103,8 @@ Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Predicting the pore-pressure and tempe
 
 [3] Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Predicting the pore-pressure and temperature of fire-loaded concrete by a hybrid neural network,” International Journal of Computational Methods, ID. 2142011, 2022. doi:10.1142/S0219876221420111.
 
+[4] Y. Zhang, Z. Gao, X. Wang, and Q. Liu, “Image representations of numerical simulations for training neural networks,” Computer Modeling in Engineering & Sciences. doi:10.32604/cmes.2022.022088.
+
 
 Bib files：
 
@@ -123,6 +135,12 @@ year = {2022},
   Volume                   = {142}
 }
 
-
+@Article{CMES2022,
+  Title                    = {Image representations of numerical simulations for training neural networks},
+  Author                   = {Zhang, Yiming and Gao, Zhiran and Wang, Xueya and Liu, Qi},
+  Journal                  = {Computer Modeling in Engineering & Sciences},
+  Year                     = {2022},
+  Note                     = {doi:10.32604/cmes.2022.022088}
+}
 
 
